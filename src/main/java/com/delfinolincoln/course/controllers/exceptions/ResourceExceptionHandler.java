@@ -1,4 +1,4 @@
-package com.delfinolincoln.course.resources.exceptions;
+package com.delfinolincoln.course.controllers.exceptions;
 
 import java.time.Instant;
 

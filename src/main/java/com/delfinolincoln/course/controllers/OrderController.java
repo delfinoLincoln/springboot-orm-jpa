@@ -1,4 +1,4 @@
-package com.delfinolincoln.course.resources;
+package com.delfinolincoln.course.controllers;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ import com.delfinolincoln.course.services.OrderService;
 
 @RestController
 @RequestMapping(value = "/orders")
-public class OrderResource {
+public class OrderController {
     @Autowired  //dependency inject
     private OrderService service;
 

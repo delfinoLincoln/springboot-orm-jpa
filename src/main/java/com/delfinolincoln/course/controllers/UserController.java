@@ -1,4 +1,4 @@
-package com.delfinolincoln.course.resources;
+package com.delfinolincoln.course.controllers;
 
 import java.net.URI;
 import java.util.List;
@@ -20,7 +20,7 @@ import com.delfinolincoln.course.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResource {
+public class UserController {
     @Autowired  //dependency inject
     private UserService service;
 
